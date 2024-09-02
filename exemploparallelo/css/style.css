@@ -14,7 +14,6 @@ nav{
     height: 125px;
     background-color: black;
     margin: 0 auto 0 auto;
-    display: flex;
 }
 nav #logo{
     margin: 23px;
@@ -23,12 +22,44 @@ nav #logo{
 nav #logo img{
    height: 75px; 
 }
+nav ul{
+    display:flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+}
 nav ul li{
     color:white;
     font-size: 16px;
     font-family: Montserrat, sans-serif;
-    list-style: none;
+    list-style:none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 55px 20px 55px 0;
     float: left;
-    text-align: center;
-    margin: 20px;
+}
+nav #menu_principal{
+    float: right;
+}
+#menu_principal li span{
+    font-family: Montserrat, sans-serif;
+    font-size: 11px;
+    color: rgb(134,134,134);
+    margin-top: 60px;
+    margin-right: 3px;
+    float: left;
+}
+#menu_principal li a{
+    color:white;
+    font-size:14px;
+    text-transform: uppercase; /*deixa o texto maiúsculo independente da maneira como é escrito*/
+}
+
+/* ------------------------------------Trabalhos------------------------------------------*/
+
+#trabalhos header{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
 }
