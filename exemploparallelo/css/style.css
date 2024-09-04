@@ -3,9 +3,12 @@ body{
     padding: 0;
 }
 header{
-    background-color: aqua;
+    background-image: url(../img/slidebg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 500px;
+    height: 720px;
     padding-top: 15px;
 }
 nav{
@@ -35,7 +38,7 @@ nav ul li{
     list-style:none;
 }
 nav ul li a{
-    text-decoration: none;
+    
     padding: 55px 20px 55px 0;
     float: left;
 }
@@ -54,6 +57,19 @@ nav #menu_principal{
     color:white;
     font-size:14px;
     text-transform: uppercase; /*deixa o texto maiúsculo independente da maneira como é escrito*/
+    text-decoration: none;
+    transition: 1s;
+}
+#menu_principal li a:hover{
+    color: #e7a920;
+    transition: 1s;
+    text-decoration: line-through;
+}
+section{
+    background-image: url(../img/divider-dark.png);
+    width: 100%;
+    height: 500px;
+    background-repeat: repeat-x;
 }
 
 /* ------------------------------------Trabalhos------------------------------------------*/
