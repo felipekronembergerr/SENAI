@@ -107,6 +107,7 @@ nav #menu_principal{
 }
 .secao2{
     text-align: center;
+    margin-top: 110px;
 }
 .secao2 .texto2 h4{
     font-size: 24px;
@@ -140,6 +141,21 @@ nav #menu_principal{
     font-style: italic;
     margin-top: 12px;
     display: inline-block;
+}
+.secao2 .mosaico{
+    min-width: 1200px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.secao2 .mosaico .item{
+    height: 470px;
+    width: 570px;
+    background-image: url(../img/imagemheliponto.jpg);
+    background-size: contain; 
+}
+.secao2 .mosaico .item:hover{
+    background-size: 110%;
+    background-position: center;
 }
 
 /* ------------------------------------Trabalhos------------------------------------------*/
